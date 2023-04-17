@@ -11,14 +11,21 @@
         <!-- <div class="bullshit__info">Please check that the URL you entered is correct, or click the button below to return to the homepage.</div> -->
         <!-- <a href="" class="bullshit__return-home">Back to home</a> -->
         <p style="color: #20232a;font-weight: 600;font-size: 30px;font-family: PingFangSC, PingFangSC-Semibold;font-weight: 600;color: #20232a;line-height: 42px;">很抱歉，您的页面迷路了~</p>
-        <el-button style="width:132px;background: #E15536;border-radius: 4px;font-weight: 400;font-size: 14px;margin-top:10px;color:#fff;border:none;" @click="$router.push('/')">返回首页</el-button>
+        <el-button
+          style="width:132px;background: #E15536;border-radius: 4px;font-weight: 400;font-size: 14px;margin-top:10px;color:#fff;border:none;"
+          @click="$router.push('/')"
+        >返回首页</el-button>
       </div>
       <div class="pic-404">
         <!-- <img class="pic-404__parent" src="@/assets/404_images/404.png" alt="404">
         <img class="pic-404__child left" src="@/assets/404_images/404_cloud.png" alt="404">
         <img class="pic-404__child mid" src="@/assets/404_images/404_cloud.png" alt="404">
         <img class="pic-404__child right" src="@/assets/404_images/404_cloud.png" alt="404"> -->
-        <img style="width: 390px;height: 386px;" src="@/assets/404.png" alt="404" />
+        <img
+          style="width: 390px;height: 386px;"
+          src="@/assets/404.png"
+          alt="404"
+        />
       </div>
     </div>
   </div>

@@ -11,14 +11,15 @@
       />
     </div> -->
     <!-- 示例图 -->
-    <div
-      v-for="(item,index) in exampleList"
-      v-if="isShowExampleImg"
-      :key="index"
-      class="read-example-box"
-    >
-      <img :src="item" />
-    </div>
+    <template v-for="(item,index) in exampleList">
+      <div
+        v-if="isShowExampleImg"
+        :key="index"
+        class="read-example-box"
+      >
+        <img :src="item" />
+      </div>
+    </template>
     <!-- 上传组件 -->
     <el-upload
       ref="uploadfiles"
@@ -104,7 +105,8 @@ export default {
       default: '.jpg,.jpeg,.png'
     },
     propImageUrl: {
-      type: Array
+      type: Array,
+      required: true
     },
     size: {
       type: Number,
@@ -115,7 +117,8 @@ export default {
       default: true
     },
     exampleList: {
-      type: Array
+      type: Array,
+      required: true
     },
     isShowExampleImg: {
       type: Boolean,

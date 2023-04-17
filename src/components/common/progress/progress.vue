@@ -15,7 +15,10 @@
           value="100"
           hidden="hidden"
         />
-        <label for="p1_barPieItem31" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem31"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -25,7 +28,10 @@
           value="96.875"
           hidden="hidden"
         />
-        <label for="p1_barPieItem30" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem30"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -35,7 +41,10 @@
           value="93.75"
           hidden="hidden"
         />
-        <label for="p1_barPieItem29" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem29"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -45,7 +54,10 @@
           value="90.625"
           hidden="hidden"
         />
-        <label for="p1_barPieItem28" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem28"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -55,7 +67,10 @@
           value="87.5"
           hidden="hidden"
         />
-        <label for="p1_barPieItem27" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem27"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -65,7 +80,10 @@
           value="84.375"
           hidden="hidden"
         />
-        <label for="p1_barPieItem26" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem26"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -75,7 +93,10 @@
           value="81.25"
           hidden="hidden"
         />
-        <label for="p1_barPieItem25" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem25"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -85,7 +106,10 @@
           value="78.125"
           hidden="hidden"
         />
-        <label for="p1_barPieItem24" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem24"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -95,7 +119,10 @@
           value="75"
           hidden="hidden"
         />
-        <label for="p1_barPieItem23" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem23"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -105,7 +132,10 @@
           value="71.875"
           hidden="hidden"
         />
-        <label for="p1_barPieItem22" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem22"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -115,7 +145,10 @@
           value="68.75"
           hidden="hidden"
         />
-        <label for="p1_barPieItem21" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem21"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -125,7 +158,10 @@
           value="65.625"
           hidden="hidden"
         />
-        <label for="p1_barPieItem20" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem20"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -135,7 +171,10 @@
           value="62.5"
           hidden="hidden"
         />
-        <label for="p1_barPieItem19" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem19"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -145,7 +184,10 @@
           value="59.375"
           hidden="hidden"
         />
-        <label for="p1_barPieItem18" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem18"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -155,7 +197,10 @@
           value="56.25"
           hidden="hidden"
         />
-        <label for="p1_barPieItem17" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem17"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -165,7 +210,10 @@
           value="53.125"
           hidden="hidden"
         />
-        <label for="p1_barPieItem16" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem16"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -175,7 +223,10 @@
           value="50"
           hidden="hidden"
         />
-        <label for="p1_barPieItem15" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem15"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -185,7 +236,10 @@
           value="46.875"
           hidden="hidden"
         />
-        <label for="p1_barPieItem14" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem14"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -195,7 +249,10 @@
           value="43.75"
           hidden="hidden"
         />
-        <label for="p1_barPieItem13" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem13"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -205,7 +262,10 @@
           value="40.625"
           hidden="hidden"
         />
-        <label for="p1_barPieItem12" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem12"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -215,7 +275,10 @@
           value="37.5"
           hidden="hidden"
         />
-        <label for="p1_barPieItem11" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem11"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -225,7 +288,10 @@
           value="34.375"
           hidden="hidden"
         />
-        <label for="p1_barPieItem10" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem10"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -235,7 +301,10 @@
           value="31.25"
           hidden="hidden"
         />
-        <label for="p1_barPieItem9" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem9"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -245,7 +314,10 @@
           value="28.125"
           hidden="hidden"
         />
-        <label for="p1_barPieItem8" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem8"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -255,7 +327,10 @@
           value="25"
           hidden="hidden"
         />
-        <label for="p1_barPieItem7" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem7"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -265,7 +340,10 @@
           value="21.875"
           hidden="hidden"
         />
-        <label for="p1_barPieItem6" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem6"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -275,7 +353,10 @@
           value="18.75"
           hidden="hidden"
         />
-        <label for="p1_barPieItem5" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem5"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -285,7 +366,10 @@
           value="15.625"
           hidden="hidden"
         />
-        <label for="p1_barPieItem4" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem4"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -295,7 +379,10 @@
           value="12.5"
           hidden="hidden"
         />
-        <label for="p1_barPieItem3" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem3"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -305,7 +392,10 @@
           value="9.375"
           hidden="hidden"
         />
-        <label for="p1_barPieItem2" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem2"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -315,7 +405,10 @@
           value="6.25"
           hidden="hidden"
         />
-        <label for="p1_barPieItem1" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem1"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
         <input
@@ -325,7 +418,10 @@
           value="3.125"
           hidden="hidden"
         />
-        <label for="p1_barPieItem0" class="barPie__ring__item">
+        <label
+          for="p1_barPieItem0"
+          class="barPie__ring__item"
+        >
           <div></div>
         </label>
       </div>

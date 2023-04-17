@@ -1,6 +1,12 @@
 <template>
-  <div class="sidebar-logo-container" :class="{ collapse: collapse }">
-    <img :src="logo" class="sidebar-logo" />
+  <div
+    class="sidebar-logo-container"
+    :class="{ collapse: collapse }"
+  >
+    <img
+      :src="logo"
+      class="sidebar-logo"
+    />
   </div>
 </template>
 

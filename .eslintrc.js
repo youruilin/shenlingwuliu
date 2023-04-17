@@ -197,6 +197,9 @@ module.exports = {
     'object-curly-spacing': [2, 'always', {
       objectsInObjects: false
     }],
-    'array-bracket-spacing': [2, 'never']
+    'array-bracket-spacing': [2, 'never'],
+    'vue/no-parsing-error': ['error', {
+      "invalid-first-character-of-tag-name": false,
+    }],
   }
 }

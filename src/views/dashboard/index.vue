@@ -119,7 +119,7 @@
               <div
                 class="bottom"
                 :class="todayData.orderAmountChanges<=0?'active':''"
-              >较昨日 {{ todayData.orderAmountChanges<=0? '-':"+" }}{{ todayData.orderAmountChanges }}</div>
+              >较昨日 {{ todayData.orderAmountChanges<=0? '-':'+' }}{{ todayData.orderAmountChanges }}</div>
             </el-col>
             <el-col :span="8">
               <div class="label">订单数量(笔)</div>

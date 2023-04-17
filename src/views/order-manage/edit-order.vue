@@ -151,12 +151,7 @@
                 <img
                   src="@/assets/juli.png"
                   alt=""
-                  style="
-                    width: 15px;
-                    height: 18px;
-                    vertical-align: middle;
-                    margin-top: 2px;
-                  "
+                  style="width: 15px;height: 18px;vertical-align: middle;margin-top: 2px;"
                 />
                 <span class="pake-info-juli-text">距离：</span>
                 <span
@@ -262,7 +257,6 @@
                     "
                     v-html="item.info"
                   >
-                    {{ item.info }}
                   </div>
                 </div>
               </div>
@@ -363,14 +357,14 @@
               </div>
             </bm-overlay>
             <bm-polyline
-              :path="this.haveDriveredLine"
+              :path="haveDriveredLine"
               stroke-color="blue"
               :stroke-opacity="1"
               :stroke-weight="5"
               :editing="false"
             ></bm-polyline>
             <bm-polyline
-              :path="this.notHaveDriveredLine"
+              :path="notHaveDriveredLine"
               stroke-color="blue"
               :stroke-opacity="1"
               :stroke-weight="5"

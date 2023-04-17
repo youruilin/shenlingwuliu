@@ -14,28 +14,40 @@
         label-width="100px"
         style="width: 100%"
       >
-        <el-form-item label="线路名称：" prop="lineName">
+        <el-form-item
+          label="线路名称："
+          prop="lineName"
+        >
           <el-input
             v-model="formData.lineName"
             :disabled="true"
             placeholder="请输入线路名称"
           />
         </el-form-item>
-        <el-form-item label="车次名称：" prop="tripsName">
+        <el-form-item
+          label="车次名称："
+          prop="tripsName"
+        >
           <el-input
             v-model="formData.tripsName"
             :disabled="true"
             placeholder="请输入车次名称"
           />
         </el-form-item>
-        <el-form-item label="发车时间：" prop="departureTime">
+        <el-form-item
+          label="发车时间："
+          prop="departureTime"
+        >
           <el-input
             v-model="formData.departureTime"
             :disabled="true"
             placeholder="请输入发车时间"
           />
         </el-form-item>
-        <el-form-item label="车辆安排：" prop="truckId">
+        <el-form-item
+          label="车辆安排："
+          prop="truckId"
+        >
           <el-select
             v-model="formData.truckId"
             suffix-icon="el-icon-search"
@@ -53,9 +65,19 @@
           </el-select>
         </el-form-item>
       </el-form>
-      <div slot="footer" class="dialog-footer" style="text-align: center">
-        <el-button class="save-btn" @click="createData">确认</el-button>
-        <el-button class="cancel-btn" @click="dialogFormH">取消</el-button>
+      <div
+        slot="footer"
+        class="dialog-footer"
+        style="text-align: center"
+      >
+        <el-button
+          class="save-btn"
+          @click="createData"
+        >确认</el-button>
+        <el-button
+          class="cancel-btn"
+          @click="dialogFormH"
+        >取消</el-button>
       </div>
     </el-dialog>
   </div>

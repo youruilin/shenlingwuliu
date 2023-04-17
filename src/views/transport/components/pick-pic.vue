@@ -33,7 +33,7 @@
                 class="el-upload-span searchBigImg"
                 src="../../../assets/img-search.png"
                 @click.stop="searchBigImg(cargoPicture||defaultPic)"
-              > </img>
+              />
             </div>
           </div>
 
@@ -51,7 +51,7 @@
                 class="el-upload-span searchBigImg"
                 src="../../../assets/img-search.png"
                 @click.stop="searchBigImg(cargoPickUpPicture||defaultPic)"
-              > </img>
+              />
             </div>
           </div>
 

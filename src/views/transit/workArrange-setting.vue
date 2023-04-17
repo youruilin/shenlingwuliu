@@ -121,8 +121,8 @@
           >
             <el-tab-pane
               v-if="
-                (this.workPatternType === '1' && this.type === 'edit') ||
-                  this.type === 'add'
+                (workPatternType === '1' && type === 'edit') ||
+                  type === 'add'
               "
               label="礼拜制"
               name="1"
@@ -181,8 +181,8 @@
             </el-tab-pane>
             <el-tab-pane
               v-if="
-                (this.workPatternType === '2' && this.type === 'edit') ||
-                  this.type === 'add'
+                (workPatternType === '2' && type === 'edit') ||
+                  type === 'add'
               "
               label="连续制"
               name="2"
@@ -219,13 +219,7 @@
                   >
                     <span
                       slot="suffix"
-                      style="
-                        color: #20232a;
-                        font-weight: 400;
-                        font-size: 14px;
-                        font-family: PingFangSC, PingFangSC-Regular;
-                        margin-right: 14px;
-                      "
+                      style="color: #20232a;font-weight: 400;font-size: 14px;font-family: PingFangSC, PingFangSC-Regular;margin-right: 14px;"
                     >天</span></el-input>
                   休
                   <el-input

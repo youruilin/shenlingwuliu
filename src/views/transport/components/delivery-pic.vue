@@ -27,8 +27,8 @@
               style="width: 212px; height: 159px; border-radius: 4px"
               :src="deliverPicture|| defaultPic"
               @click="()=>{
-                this.srcList = []
-                this.srcList.push(defaultPic)
+                srcList = []
+                srcList.push(defaultPic)
               }"
             />
             <div class="img-shadow">
@@ -36,7 +36,7 @@
                 class="el-upload-span searchBigImg"
                 src="../../../assets/img-search.png"
                 @click.stop="searchBigImg(deliverPicture||defaultPic)"
-              > </img>
+              />
             </div>
           </div>
           <div
@@ -48,8 +48,8 @@
               style="width: 212px; height: 159px; border-radius: 4px"
               :src=" transportCertificate||defaultPic"
               @click="()=>{
-                this.srcList = []
-                this.srcList.push(defaultPic)
+                srcList = []
+                srcList.push(defaultPic)
               }"
             />
             <div class="img-shadow">
@@ -57,7 +57,7 @@
                 class="el-upload-span searchBigImg"
                 src="../../../assets/img-search.png"
                 @click.stop="searchBigImg(transportCertificate||defaultPic)"
-              > </img>
+              />
             </div>
           </div>
         </div>

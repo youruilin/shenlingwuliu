@@ -2,7 +2,10 @@
 <template>
   <div class="dashboard-container line-manage customer-list-box">
     <div class="app-container">
-      <el-card shadow="never" class="search-card-box">
+      <el-card
+        shadow="never"
+        class="search-card-box"
+      >
         <el-form
           ref="lineManageSearchFormData"
           :model="lineManageSearchFormData"
@@ -10,7 +13,10 @@
         >
           <el-row :gutter="60">
             <el-col :span="8">
-              <el-form-item label="线路编号:" style="margin-bottom: 0px">
+              <el-form-item
+                label="线路编号:"
+                style="margin-bottom: 0px"
+              >
                 <el-input
                   v-model="lineManageSearchFormData.number"
                   placeholder="请输入线路编号"
@@ -103,13 +109,15 @@
               </el-form-item>
             </el-col>
             <el-col :span="8">
-              <el-button type="warning" @click="handleFilter">搜索</el-button>
+              <el-button
+                type="warning"
+                @click="handleFilter"
+              >搜索</el-button>
               <el-button
                 plain
                 class="reset-btn"
                 @click="resetForm('lineManageSearchFormData')"
-                >重置</el-button
-              >
+              >重置</el-button>
             </el-col>
           </el-row>
         </el-form>
@@ -130,15 +138,13 @@
           class="customer-add-btn"
           style="margin-bottom: 10px"
           @click="handleAddLine()"
-          >新增线路</el-button
-        >
+        >新增线路</el-button>
 
         <el-button
           class="customer-add-btn"
           style="margin-bottom: 10px"
           @click="handleCostSetting()"
-          >成本设置</el-button
-        >
+        >成本设置</el-button>
         <el-table
           :data="dataList"
           style="width: 100%; margin-top: 10px"
@@ -199,20 +205,27 @@
                     prop="name"
                     label="车次名称"
                   ></el-table-column>
-                  <el-table-column prop="departureTime" label="发车频次">
+                  <el-table-column
+                    prop="departureTime"
+                    label="发车频次"
+                  >
                     <template slot-scope="scope1">
-                      <span
-                        >{{ handleDates(scope1.row.departureTime) }} /
-                        {{ scope1.row.periodName }}</span
-                      >
+                      <span>{{ handleDates(scope1.row.departureTime) }} /
+                        {{ scope1.row.periodName }}</span>
                     </template>
                   </el-table-column>
-                  <el-table-column prop="arrivalTime" label="到达时间">
+                  <el-table-column
+                    prop="arrivalTime"
+                    label="到达时间"
+                  >
                     <template slot-scope="scope1">
                       <span>{{ handleDates(scope1.row.arriveTime) }}</span>
                     </template>
                   </el-table-column>
-                  <el-table-column prop="legal" label="车辆安排">
+                  <el-table-column
+                    prop="legal"
+                    label="车辆安排"
+                  >
                     <template
                       v-if="scope1.row.truckDrivers"
                       slot-scope="scope1"
@@ -234,7 +247,10 @@
                       </span>
                     </template>
                   </el-table-column>
-                  <el-table-column prop="legal" label="司机安排">
+                  <el-table-column
+                    prop="legal"
+                    label="司机安排"
+                  >
                     <template slot-scope="scope1">
                       <span
                         v-for="(item, index) in scope1.row.truckDrivers"
@@ -258,16 +274,14 @@
                         type="text"
                         size="mini"
                         @click="handleEditTrips(scope1.row.id, scope.row.name)"
-                        >编辑车次</el-button
-                      >
+                      >编辑车次</el-button>
                       <el-divider direction="vertical"></el-divider>
                       <el-button
                         type="text"
                         size="small"
                         style="color: rgba(245, 108, 108, 1)"
                         @click="handleDelTrips(scope1.row.id)"
-                        >删除车次</el-button
-                      >
+                      >删除车次</el-button>
                       <el-divider direction="vertical"></el-divider>
                       <el-button
                         type="text"
@@ -286,8 +300,7 @@
                             scope1.row.transportLine
                           )
                         "
-                        >安排车辆</el-button
-                      >
+                      >安排车辆</el-button>
                       <el-divider direction="vertical"></el-divider>
                       <el-button
                         type="text"
@@ -299,8 +312,7 @@
                             scope1.row.truckDrivers
                           )
                         "
-                        >车辆解绑</el-button
-                      >
+                      >车辆解绑</el-button>
                     </template>
                   </el-table-column>
                 </el-table>
@@ -323,25 +335,36 @@
             prop="name"
             label="线路名称"
           ></el-table-column>
-          <el-table-column width="170" label="线路类型">
+          <el-table-column
+            width="170"
+            label="线路类型"
+          >
             <template slot-scope="{ row }">
               <span>{{
                 row.type === 1
                   ? '干线'
                   : row.type === 2
-                  ? '支线'
-                  : row.type === 3
-                  ? '接驳路线'
-                  : ''
+                    ? '支线'
+                    : row.type === 3
+                      ? '接驳路线'
+                      : ''
               }}</span>
             </template>
           </el-table-column>
-          <el-table-column prop="spu_desc" min-width="120" label="起始地机构">
+          <el-table-column
+            prop="spu_desc"
+            min-width="120"
+            label="起始地机构"
+          >
             <template slot-scope="{ row }">
               <span>{{ row.startOrganName || '' }}</span>
             </template>
           </el-table-column>
-          <el-table-column prop="pay_type" min-width="120" label="目的地机构">
+          <el-table-column
+            prop="pay_type"
+            min-width="120"
+            label="目的地机构"
+          >
             <template slot-scope="{ row }">
               <span>{{ row.endOrganName || '' }}</span>
             </template>
@@ -361,28 +384,30 @@
             width="140"
             label="预计时间（分钟）"
           ></el-table-column>
-          <el-table-column prop="pay" label="操作" width="184" align="center">
+          <el-table-column
+            prop="pay"
+            label="操作"
+            width="184"
+            align="center"
+          >
             <template slot-scope="scope">
               <el-link
                 type="primary"
                 :underline="false"
                 @click="handleAddLine(scope.row.id)"
-                >修改</el-link
-              >
+              >修改</el-link>
               <el-divider direction="vertical"></el-divider>
               <el-link
                 type="danger"
                 :underline="false"
                 @click="handleDeleteLine(scope.row.id)"
-                >删除</el-link
-              >
+              >删除</el-link>
               <el-divider direction="vertical"></el-divider>
               <el-link
                 type="primary"
                 :underline="false"
                 @click="handleAddTrips(scope.row.id, scope.row.name)"
-                >增加车次</el-link
-              >
+              >增加车次</el-link>
             </template>
           </el-table-column>
           <el-card
@@ -397,7 +422,10 @@
         </el-table>
         <!-- end -->
         <!-- 分页 -->
-        <div v-show="dataList && dataList.length > 0" class="pagination">
+        <div
+          v-show="dataList && dataList.length > 0"
+          class="pagination"
+        >
           <div class="pages">
             <el-pagination
               :current-page="Number(lineManageSearchFormData.page)"
@@ -455,18 +483,25 @@
       width="394px"
       :before-close="handleCloseTrainNumber"
     >
-      <img class="warn-img" src="@/assets/warn.png" alt="" />
+      <img
+        class="warn-img"
+        src="@/assets/warn.png"
+        alt=""
+      />
       <p>确认删除车次？</p>
-      <span slot="footer" class="dialog-footer">
+      <span
+        slot="footer"
+        class="dialog-footer"
+      >
         <el-button
           type="primary"
           class="confirm-btn"
           @click="sumbitDelteTrainNumber"
-          >确定</el-button
-        >
-        <el-button class="cancel-btn" @click="dialogVisibleTrainNumber = false"
-          >取消</el-button
-        >
+        >确定</el-button>
+        <el-button
+          class="cancel-btn"
+          @click="dialogVisibleTrainNumber = false"
+        >取消</el-button>
       </span>
     </el-dialog>
   </div>

@@ -46,7 +46,8 @@
             <div class="form-item">
               <span class="span-title">驾驶证有效期限：</span>
               <el-input
-                v-model="isShow ? driverLicens.validPeriod+'年': driverLicens.validPeriod"
+                v-model="driverLicens.validPeriod"
+                :value="isShow ? driverLicens.validPeriod+'年': driverLicens.validPeriod"
                 :disabled="disabledValidPeriod"
                 :placeholder="isShow?'--':'请输入驾驶证有效期限'"
                 maxlength="5"
@@ -67,7 +68,8 @@
             <div class="form-item">
               <span class="span-title">驾龄：</span>
               <el-input
-                v-model="isShow?driverLicens.driverAge+' 年':driverLicens.driverAge"
+                v-model="driverLicens.driverAge"
+                :value="isShow?driverLicens.driverAge+' 年':driverLicens.driverAge"
                 :disabled="disabledDriverAge"
                 :placeholder="isShow?'--':'请输入驾龄'"
                 maxlength="5"

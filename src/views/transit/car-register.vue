@@ -305,7 +305,7 @@
 </template>
 
 <script>
-import { carRegisterList, pickupTaskUpdate } from '@/api/branch'
+import { carRegisterList } from '@/api/branch'
 import '@riophae/vue-treeselect/dist/vue-treeselect.css'
 import Treeselect from '@riophae/vue-treeselect'
 import { agencyList } from '@/api/institutions'

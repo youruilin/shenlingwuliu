@@ -143,9 +143,9 @@
             </p>
           </bm-control>
           <bm-polygon
-            v-for="(path, index) of polyline.paths"
+            v-for="(item, index) of polyline.paths"
             :key="index"
-            :path="path"
+            :path="item"
             stroke-color="#e85552"
             fill-color="rgba(232,85,82,0.30)"
             :fill-opacity="0.9"

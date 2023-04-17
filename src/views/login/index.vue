@@ -107,19 +107,18 @@
       <span v-if="login.type === 'social'">
         {{ $t('login.chooseToSignIn') }}
         <div>
-          <template v-for="(l, index) in logo">
-            <div
-              :key="index"
-              class="logo-wrapper"
-            >
-              <img
-                :class="{ radius: l.radius }"
-                :src="resolveLogo(l.img)"
-                alt
-                @click="socialLogin(l.name)"
-              />
-            </div>
-          </template>
+          <div
+            v-for="(l, index) in logo"
+            :key="index"
+            class="logo-wrapper"
+          >
+            <img
+              :class="{ radius: l.radius }"
+              :src="resolveLogo(l.img)"
+              alt
+              @click="socialLogin(l.name)"
+            />
+          </div>
         </div>
       </span>
       <span
@@ -245,7 +244,7 @@
 import db from '@/utils/localstorage'
 import { randomNum } from '@/utils'
 import { socialLoginUrl } from '@/settings'
-import { getCaptcha, login, loginLog } from '@/api/login.js'
+import { getCaptcha, login } from '@/api/login.js'
 import commonApi from '@/api/common.js'
 import Cookies from 'js-cookie'
 export default {

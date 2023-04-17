@@ -359,7 +359,7 @@ router.beforeEach((to, from, next) => {
           background: 'rgba(255, 255, 255, 0.8)'
         }
         const loadingInstance = Loading.service(options)
-        const origin = window.location.protocol + '//' + window.location.host
+        // const origin = window.location.protocol + '//' + window.location.host
         if (to.path === '/dashboard') {
           // http://localhost:9528/
           // http://pinda.itheima.net

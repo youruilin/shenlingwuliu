@@ -81,14 +81,14 @@
           stroke-style="solid"
         ></bml-curve-line> -->
         <bm-polyline
-          :path="this.haveDriveredLine"
+          :path="haveDriveredLine"
           :stroke-opacity="0.5"
           :stroke-weight="4"
           :editing="false"
           stroke-color="blue"
         ></bm-polyline>
         <bm-polyline
-          :path="this.notHaveDriveredLine"
+          :path="notHaveDriveredLine"
 
           :stroke-opacity="0.5"
           :stroke-weight="4"

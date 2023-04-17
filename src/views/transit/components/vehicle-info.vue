@@ -79,7 +79,8 @@
                 >
                   <!-- <span class="span-title">车辆体积：</span> -->
                   <el-input
-                    v-model="isShow?vehicles.allowableVolume +' m³':vehicles.allowableVolume"
+                    v-model="vehicles.allowableVolume"
+                    :value="isShow?vehicles.allowableVolume +' m³':vehicles.allowableVolume"
                     :disabled="isShow"
                     :placeholder="isShow?'--':'请输入车辆体积'"
                     maxlength="20"
@@ -105,7 +106,8 @@
                 >
                   <!-- <span class="span-title">车辆载重：</span> -->
                   <el-input
-                    v-model="isShow?vehicles.allowableLoad + ' 吨':vehicles.allowableLoad"
+                    v-model="vehicles.allowableLoad"
+                    :value="isShow?vehicles.allowableLoad + ' 吨':vehicles.allowableLoad"
                     :disabled="isShow"
                     :placeholder="isShow?'--':'请输入车辆载重'"
                     maxlength="20"

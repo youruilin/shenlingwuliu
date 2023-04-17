@@ -101,7 +101,8 @@
                   label-width="100px"
                 >
                   <el-input
-                    v-model="isShowDriving?vehiclesDriving.overallQuality+' 吨':vehiclesDriving.overallQuality"
+                    v-model="vehiclesDriving.overallQuality"
+                    :value="isShowDriving?vehiclesDriving.overallQuality+' 吨':vehiclesDriving.overallQuality"
                     :disabled="disabledStr"
                     maxlength="20"
                     :placeholder="isShowDriving?'--':'请输入整备质量'"
@@ -146,7 +147,8 @@
                   class="form-item"
                 >
                   <el-input
-                    v-model="isShowDriving?vehiclesDriving.allowableWeight+' 吨':vehiclesDriving.allowableWeight"
+                    v-model="vehiclesDriving.allowableWeight"
+                    :value="isShowDriving?vehiclesDriving.allowableWeight+' 吨':vehiclesDriving.allowableWeight"
                     :disabled="disabledStr"
                     maxlength="20"
                     :placeholder="isShowDriving?'--':'请输入核定载质量'"
