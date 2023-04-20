@@ -42,8 +42,8 @@
 vue2+vuex+axios
 
 #### 外网展示
-> 部署说明：目前是 git 上传代码后在 jekenis 上自动部署
-- http://slwl-admin-t.itheima.net/#/login
+> 部署说明：目前是 git 上传代码后在 gitlab 上自动部署
+- https://fe-slwl-manager.itheima.net/#/login
 
 #### 开发环境
 - windows 版本 windows 10 企业版
@@ -54,19 +54,15 @@ vue2+vuex+axios
 #### 运行程序
 ```sh
 
-1. 安装 cnpm 工具，国内加速
+1. 安装依赖包
 
-npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm i --registry=https://registry.npm.taobao.org
 
-2. 安装依赖包
-
-cnpm i
-
-3. 运行程序
+2. 运行程序
 
 npm run dev
 
-4. 浏览器打开
+3. 浏览器打开
 
 http://localhost:9528/
 
