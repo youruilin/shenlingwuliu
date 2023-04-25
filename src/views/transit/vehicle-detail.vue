@@ -3,70 +3,12 @@
   <div
     class="dashboard-container vehicle-detail"
   >
-    <div class="app-container">
-      <el-container
-        class="out"
-      >
-        <div class="aside-box">
-          <el-aside>
-            <div
-              v-for="(item, index) in menu"
-              :key="index"
-              class="aside-item"
-              :class="{ active: isActive == item.value ? true : false }"
-              @click="
-                isActive = item.value
-                currentComp = item.comp
-              "
-            >
-              {{ item.name }}
-            </div>
-          </el-aside>
-        </div>
-        <el-container class="in">
-          <test1 :is="currentComp" />
-        </el-container>
-      </el-container>
-    </div>
+
   </div>
 </template>
 <script>
-import vehicleInfo from './components/vehicle-info'
-import vehicleDrivingLicense from './components/vehicle-driving-license'
-import vehicleTrains from './components/vehicle-trains'
 export default {
-  // 注册组件
-  components: {
-    vehicleInfo,
-    vehicleDrivingLicense,
-    vehicleTrains
-  },
-  data() {
-    return {
-      // formData: {},
-      // 当前选中的组件
-      currentComp: 'vehicleInfo',
-      // 当前选中的li标签
-      isActive: '1',
-      id: '',
-      menu: [
-        {
-          name: '基本信息',
-          value: '1',
-          comp: 'vehicleInfo'
-        },
-        {
-          name: '行驶证信息',
-          value: '2',
-          comp: 'vehicleDrivingLicense'
-        }
-      ]
-    }
-  },
-  created() {},
-  methods: {
-    goBack() {}
-  }
+
 }
 </script>
 <style lang="scss" scoped>
