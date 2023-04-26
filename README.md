@@ -6,7 +6,7 @@
 > 物流项目体系包含四个端：管理后台、用户端、司机端以及快递员端
 
 #### 项目展示
-<img width="406" src="./README/img/admin.gif" alt="Vue logo">
+<img width="406" src="./README/img/admin.gif" alt="Vue logo"><br>
 <img width="100" src="./README/img/siji.gif" alt="Vue logo">
 <img width="100" src="./README/img/kuaidiyuan.gif" alt="Vue logo">
 <img width="100" src="./README/img/yonghuduan.gif" alt="Vue logo">
