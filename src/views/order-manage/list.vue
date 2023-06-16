@@ -18,13 +18,13 @@ export default {
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 </style>
 
 <style lang="scss" scoped>
-.order-list /deep/ .el-table td,
+.order-list ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;

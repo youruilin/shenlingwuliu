@@ -398,7 +398,7 @@ export default {
     font-weight: 400;
     font-size: 14px;
   }
-  /deep/ .el-input{
+  ::v-deep .el-input{
     width: 230px;
   }
   .keyword{
@@ -412,7 +412,7 @@ export default {
   }
   .card-box {
     border-radius: 4px;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 0;
     }
     .header-box {
@@ -431,7 +431,7 @@ export default {
   }
 }
 
-/deep/ .BMap_vectex_node {
+::v-deep .BMap_vectex_node {
   background-image: none;
   width: 6px;
   height: 6px;
@@ -439,7 +439,7 @@ export default {
   border-radius: 50%;
   text-align: center;
 }
-/deep/ .BMap_vectex_nodeT {
+::v-deep .BMap_vectex_nodeT {
   background-image: none;
   width: 6px;
   height: 6px;
@@ -448,7 +448,7 @@ export default {
   text-align: center;
 }
 // 更改比例尺位置
-/deep/ .BMap_stdMpCtrl {
+::v-deep .BMap_stdMpCtrl {
   margin-top: 120px;
 }
 

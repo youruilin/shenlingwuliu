@@ -608,7 +608,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .customer-tree-box {
+::v-deep .customer-tree-box {
   .el-tree-node {
     margin: 2px 0 !important;
     .is-focusable {
@@ -678,7 +678,7 @@ export default {
     width: 214px;
     // 设置内边距
     padding-left: 9px;
-    /deep/ .customer-tree-box {
+    ::v-deep .customer-tree-box {
       .el-tree-node {
         margin: 5px 0 !important;
         .el-tree-node__children {
@@ -707,7 +707,7 @@ export default {
     }
   }
   .log-list-right {
-    /deep/ .el-card__header {
+    ::v-deep .el-card__header {
       color: #2a2929;
       font-weight: bold;
       font-size: 16px;
@@ -725,7 +725,7 @@ export default {
     margin-top: 26px;
     padding-bottom: 40px;
   }
-  /deep/ .el-card__body {
+  ::v-deep .el-card__body {
     padding: 0;
     padding-top: 10px;
     .app-container {
@@ -739,7 +739,7 @@ export default {
     padding-right: 37px;
   }
 
-  /deep/ .el-tree-node__content {
+  ::v-deep .el-tree-node__content {
     margin-right: 20px;
   }
 }
@@ -776,7 +776,7 @@ export default {
     width: 100%;
     display: -webkit-box;
     // display: flex;
-    /deep/ .el-row {
+    ::v-deep .el-row {
       width: 100%;
     }
     .log-list-right {
@@ -787,19 +787,19 @@ export default {
       .log-list-right-table {
         min-height: calc(75vh - 0px);
       }
-      /deep/ .el-card__header {
+      ::v-deep .el-card__header {
         background-color: #fafafa;
         // border-radius: 8px 8px 0 0;
       }
-      /deep/ .el-card.is-always-shadow {
+      ::v-deep .el-card.is-always-shadow {
         border-radius: 4px !important;
         box-shadow: none;
       }
-      /deep/ .el-select {
+      ::v-deep .el-select {
         width: 100%;
       }
       // 新添加的
-      /deep/ .custom-theme .el-input.is-disabled .el-input__inner {
+      ::v-deep .custom-theme .el-input.is-disabled .el-input__inner {
         background-color: #fafafa !important;
         color: red;
       }
@@ -810,7 +810,7 @@ export default {
 
       background-color: #fff;
       border-radius: 4px;
-      /deep/ .el-scrollbar {
+      ::v-deep .el-scrollbar {
         border-radius: 8px;
       }
     }
@@ -819,7 +819,7 @@ export default {
     }
   }
 
-  /deep/ .org-index {
+  ::v-deep .org-index {
     .el-card__body {
       // border-top: 1px solid #e5e7ec;
       // margin: 0px 60px;
@@ -830,16 +830,16 @@ export default {
     }
   }
 }
-/deep/ .el-pager li.active {
+::v-deep .el-pager li.active {
   color: #e15536;
 }
-/deep/ .el-pagination__total {
+::v-deep .el-pagination__total {
   color: #20232a;
 }
-/deep/ .el-pagination button:hover {
+::v-deep .el-pagination button:hover {
   color: #e15536;
 }
-/deep/ .el-pagination__sizes .el-input .el-input__inner:hover {
+::v-deep .el-pagination__sizes .el-input .el-input__inner:hover {
   border-color: #e15536;
 }
 </style>

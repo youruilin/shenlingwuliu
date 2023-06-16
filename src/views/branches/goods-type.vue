@@ -458,12 +458,12 @@ export default {
 }
 
 .goods-type {
-  /deep/ .transport-car {
+  ::v-deep .transport-car {
     .cell {
       padding-right: 50px;
     }
   }
-  /deep/ .el-dialog__title {
+  ::v-deep .el-dialog__title {
     width: 73px;
     height: 25px;
     font-size: 18px;
@@ -474,7 +474,7 @@ export default {
     line-height: 25px;
     letter-spacing: 0px;
   }
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     text-align: center;
     padding: 40px 60px 0;
   }
@@ -492,7 +492,7 @@ export default {
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 </style>

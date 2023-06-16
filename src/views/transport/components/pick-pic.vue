@@ -116,13 +116,13 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .img-label {
+::v-deep .img-label {
   display: inline-block;
   vertical-align: top;
   font-size: 16px;
   margin-right: 20px;
 }
-/deep/ .image-slot {
+::v-deep .image-slot {
   background-image: url('https://yjy-slwl-oss.oss-cn-hangzhou.aliyuncs.com/282b9ee4-9edc-40e9-b365-84dec2cce429.png');
   width: 241px;
   height: 160px;
@@ -160,7 +160,7 @@ export default {
   }
   .form-box {
     border: 0 !important;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 15px 26px;
       .form-item-box {
         display: flex;
@@ -188,11 +188,11 @@ export default {
             color: #20232a;
             font-size: 14px;
           }
-          /deep/ .el-input {
+          ::v-deep .el-input {
             flex: 1;
             margin-left: 10px;
           }
-          /deep/.el-input.is-disabled .el-input__inner {
+          ::v-deep.el-input.is-disabled .el-input__inner {
             background: #eff3f8;
             border: 1px solid #d8dde3;
             border-radius: 5px;
@@ -203,7 +203,7 @@ export default {
       }
     }
   }
-  /deep/ .img-box {
+  ::v-deep .img-box {
     display: inline-block;
     position: relative;
     .img-shadow {
@@ -259,13 +259,13 @@ export default {
     }
   }
 }
-/deep/ .el-dialog__header {
+::v-deep .el-dialog__header {
   background-color: white;
   position: relative;
   z-index: 2;
   padding: 0px;
 }
-/deep/ .el-dialog__body {
+::v-deep .el-dialog__body {
   position: absolute;
   height: 600px;
   width: 100%;
@@ -277,7 +277,7 @@ export default {
     height: 600px;
   }
 }
-/deep/ .el-dialog {
+::v-deep .el-dialog {
   height: 600px;
 }
 </style>

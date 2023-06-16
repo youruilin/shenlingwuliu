@@ -770,20 +770,20 @@ export default {
 .alert {
   margin: 10px 0px;
 }
-/deep/ .pagination {
+::v-deep .pagination {
   margin-top: 0px!important;
   margin-bottom: 0px!important;
   padding-bottom: 0px;
 }
-/deep/ .el-dialog__body{
+::v-deep .el-dialog__body{
   padding-left: 50px!important;
 }
 </style>
 
 <style lang="scss" scoped>
 .waybill-list {
-  /deep/ .el-table td,
-  /deep/ .el-table th {
+  ::v-deep .el-table td,
+  ::v-deep .el-table th {
     padding: 12px 0;
     min-width: 0;
     -webkit-box-sizing: border-box;
@@ -795,7 +795,7 @@ export default {
   }
 }
 
-.waybill-list /deep/ .el-table td,
+.waybill-list ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;
@@ -806,13 +806,13 @@ export default {
   position: relative;
   overflow: hidden;
 }
-/deep/ .el-card{
+::v-deep .el-card{
   overflow: initial;
 }
-/deep/ .el-select{
+::v-deep .el-select{
   width: 100%;
 }
-/deep/ .el-card__body{
+::v-deep .el-card__body{
   padding-bottom: 58px!important;
 }
 

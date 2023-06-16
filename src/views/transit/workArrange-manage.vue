@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>
-/deep/ th.date{
+::v-deep th.date{
   .cell{
     padding-left: 17px!important;
   }
@@ -26,28 +26,28 @@ export default {
 }
 .history-name {
   width: auto !important;
-  /deep/ .el-input__inner {
+  ::v-deep .el-input__inner {
     width: 293px;
   }
 }
 
 .workArrange-manage-people-setting {
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     padding: 30px 50px 10px 50px !important;
   }
-  /deep/ .el-dialog__footer {
+  ::v-deep .el-dialog__footer {
     padding-bottom: 40px;
   }
 }
 
 .work-type {
-  /deep/ .el-form-item__content {
+  ::v-deep .el-form-item__content {
     margin-left: 40px !important;
   }
-  /deep/ .el-radio:first-child {
+  ::v-deep .el-radio:first-child {
     margin-right: 80px !important;
   }
-  /deep/.el-radio__label {
+  ::v-deep.el-radio__label {
     font-weight: bold;
     color: #333333;
   }
@@ -78,7 +78,7 @@ export default {
 .pagination {
   margin-top: 40px;
 }
-.transport-task /deep/ .el-table td,
+.transport-task ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;
@@ -92,12 +92,12 @@ export default {
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 
 /*定义滚动条轨道 内阴影+圆角*/
-/deep/ .el-table--scrollable-x .el-table__body-wrapper {
+::v-deep .el-table--scrollable-x .el-table__body-wrapper {
   padding-bottom: 5px;
   margin-bottom: 5px;
   &::-webkit-scrollbar {
@@ -115,7 +115,7 @@ export default {
     margin-left: 3px;
   }
 }
-/deep/ .el-card{
+::v-deep .el-card{
   overflow: initial;
 }
 </style>

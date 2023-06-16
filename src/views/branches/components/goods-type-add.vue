@@ -248,10 +248,10 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .el-form-item__label {
+::v-deep .el-form-item__label {
   white-space: nowrap;
 }
-/deep/ .el-dialog__footer {
+::v-deep .el-dialog__footer {
   text-align: center;
 }
 </style>

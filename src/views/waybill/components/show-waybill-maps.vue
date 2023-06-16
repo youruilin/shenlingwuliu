@@ -99,7 +99,7 @@ export default {
 <style lang="scss" scoped>
 
 /*定义滚动条轨道 内阴影+圆角*/
-/deep/ .el-dialog__wrapper {
+::v-deep .el-dialog__wrapper {
 
   padding-bottom: 5px;
   margin-bottom: 5px;
@@ -135,18 +135,18 @@ export default {
 .el-dialog__footer {
   // text-align: center;
 }
-/deep/ .el-dialog {
+::v-deep .el-dialog {
   width: 1200px;
 }
 .maps-details-box{
-  /deep/ .el-dialog__header{
+  ::v-deep .el-dialog__header{
     .el-dialog__title{
       font-size: 18px;
       font-weight: 400;
       color: #20232a;
     }
   }
-  /deep/ .el-dialog__body{
+  ::v-deep .el-dialog__body{
     padding: 32px;
   }
 }

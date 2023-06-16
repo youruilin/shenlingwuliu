@@ -705,14 +705,14 @@ $cursor: #555;
     }
   }
 
-  /deep/ .el-input--prefix .el-input__inner {
+  ::v-deep .el-input--prefix .el-input__inner {
     padding-left: 48px;
     line-height: 54px;
     height: 54px;
     border-radius: 5px;
   }
 
-  /deep/ .el-input__icon {
+  ::v-deep .el-input__icon {
     line-height: 54px;
     font-size: 20px;
     padding-left: 12px;
@@ -722,7 +722,7 @@ $cursor: #555;
   }
 
   // 新增处理的样式-2021-03-09
-  /deep/ .el-form-item__content {
+  ::v-deep .el-form-item__content {
     //   line-height: 59px !important;
     position: relative;
     .icon-img {
@@ -739,7 +739,7 @@ $cursor: #555;
     //   font-size: 16px;
   }
 
-  /deep/ .el-form-item {
+  ::v-deep .el-form-item {
     // border: 1px solid #dedede;
     border-radius: 5px;
     color: #454545;

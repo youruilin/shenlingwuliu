@@ -480,7 +480,7 @@ export default {
 						}
 					}
 					.table-show {
-						/deep/ .el-table td, .el-table th.is-leaf {
+						::v-deep .el-table td, .el-table th.is-leaf {
 							border-bottom: none;
 						}
 					}

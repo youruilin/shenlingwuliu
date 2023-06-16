@@ -256,7 +256,7 @@ export default {
   }
   .form-box {
     border: 0 !important;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 10px 40px!important;
       .form-item-box {
         display: flex;
@@ -284,11 +284,11 @@ export default {
             color: #20232a;
             font-size: 14px;
           }
-          /deep/ .el-input {
+          ::v-deep .el-input {
             flex: 1;
             margin-left: 10px;
           }
-          /deep/.el-input.is-disabled .el-input__inner {
+          ::v-deep.el-input.is-disabled .el-input__inner {
             background: #eff3f8;
             border: 1px solid #d8dde3;
             border-radius: 5px;
@@ -363,7 +363,7 @@ export default {
   background: #ffffff;
 }
 
-.waybill-detail /deep/ .el-table td,
+.waybill-detail ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;

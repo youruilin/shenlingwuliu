@@ -442,23 +442,23 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .customer-details-box{
+::v-deep .customer-details-box{
   border-radius: 4px;
 }
-/deep/ .el-input__inner {
+::v-deep .el-input__inner {
   padding-left: 0px !important;
   padding-right: 0 !important;
   width: 160px !important;
 }
-/deep/ .form-item {
+::v-deep .form-item {
   width: 25% !important;
 }
-/deep/ .form-item.driver{
+::v-deep .form-item.driver{
   .el-input__inner{
     width: 250px!important;
   }
 }
-/deep/ .img-box {
+::v-deep .img-box {
   display: inline-block;
   position: relative;
   border-radius: 4px;
@@ -488,13 +488,13 @@ export default {
     display: block;
   }
 }
-/deep/ .el-dialog__header {
+::v-deep .el-dialog__header {
   background-color: white;
   position: relative;
   z-index: 2;
   padding: 0px;
 }
-/deep/ .el-dialog__body {
+::v-deep .el-dialog__body {
   position: absolute;
   height: 600px;
   width: 100%;
@@ -506,7 +506,7 @@ export default {
     height: 600px;
   }
 }
-/deep/ .el-dialog {
+::v-deep .el-dialog {
   height: 600px;
 }
 //基本信息
@@ -576,7 +576,7 @@ export default {
   .form-item:nth-child(1),.form-item:nth-child(1){
     width: 33%!important;
   }
-  /deep/ .el-card__body{
+  ::v-deep .el-card__body{
     padding-bottom: 32px!important;
   }
   .form-item-box{
@@ -609,7 +609,7 @@ export default {
   }
   .form-box {
     border: 0 !important;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 15px 26px;
       padding-left: 45px !important;
       padding-right: 0px !important;
@@ -629,11 +629,11 @@ export default {
             color: #20232a;
             font-size: 14px;
           }
-          /deep/ .el-input {
+          ::v-deep .el-input {
             flex: 1;
             margin-left: 10px;
           }
-          /deep/.el-input.is-disabled .el-input__inner {
+          ::v-deep.el-input.is-disabled .el-input__inner {
             background: #eff3f8;
             border: 1px solid #d8dde3;
             border-radius: 5px;
@@ -656,7 +656,7 @@ export default {
     padding: 37px 35px;
     box-sizing: border-box;
     min-height: calc(100vh - 50px);
-    /deep/ .el-aside {
+    ::v-deep .el-aside {
       width: 80px !important;
       background-color: #ffffff;
       text-align: left;
@@ -679,14 +679,14 @@ export default {
       padding: 20px 20px 20px 44px;
       margin-bottom: 8px;
     }
-    /deep/ .el-card {
+    ::v-deep .el-card {
       .el-card__body {
         padding: 0;
         // padding-bottom: 13px;
       }
     }
 
-    /deep/ .form-box {
+    ::v-deep .form-box {
       .el-card__body {
         padding-bottom: 24px !important;
         padding-right: 40px;

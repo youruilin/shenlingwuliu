@@ -455,7 +455,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  /deep/ .customer-tree-box {
+  ::v-deep .customer-tree-box {
 
         .el-tree-node {
           margin: 2px 0 !important;
@@ -536,7 +536,7 @@ export default {
 .pagination {
   margin-top: 10px;
 }
-/deep/ .BMap_vectex_node {
+::v-deep .BMap_vectex_node {
   background-image: none;
   width: 6px;
   height: 6px;
@@ -544,7 +544,7 @@ export default {
   border-radius: 50%;
   text-align: center;
 }
-/deep/ .BMap_vectex_nodeT {
+::v-deep .BMap_vectex_nodeT {
   background-image: none;
   width: 6px;
   height: 6px;
@@ -554,7 +554,7 @@ export default {
 }
 
 // 更改比例尺位置
-/deep/ .BMap_stdMpCtrl {
+::v-deep .BMap_stdMpCtrl {
   margin-top: 120px;
 }
 </style>
@@ -567,20 +567,20 @@ export default {
     font-weight: 400;
     font-size: 14px;
   }
-  /deep/ .el-input{
+  ::v-deep .el-input{
     width: 230px;
   }
   .keyword{
     margin-right: 30px;
   }
 }
-/deep/ .el-tree-node__content {
+::v-deep .el-tree-node__content {
   margin-right: 20px;
   .el-tree-node__label {
 
   }
 }
-/deep/ .l-box {
+::v-deep .l-box {
   width: 219px !important;
 }
 .map {
@@ -613,24 +613,24 @@ export default {
 
     box-sizing: border-box;
     background: #ffffff;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 10px 8px 0 9px !important;
       border-radius: 8px
     }
     .app-container-tree {
       padding: 0 !important;
       margin: 0 !important;
-      /deep/ .el-scrollbar__wrap {
+      ::v-deep .el-scrollbar__wrap {
         margin-bottom: -5px !important;
         margin-right: -30px !important;
         margin-left: 10px !important;
       }
-      /deep/ .el-input {
+      ::v-deep .el-input {
         .el-input__inner::placeholder {
           color: #bac0cd !important;
         }
       }
-      /deep/ .customer-tree-box {
+      ::v-deep .customer-tree-box {
         .el-tree-node {
           margin: 5px 0 !important;
           .el-tree-node__children {
@@ -662,7 +662,7 @@ export default {
   .r-box {
     flex: 1;
     margin-left: 20px;
-    /deep/ .el-card__header {
+    ::v-deep .el-card__header {
       padding: 0 0 0 25px !important;
       border-bottom: 0 !important;
       background: #f8faff !important;
@@ -675,7 +675,7 @@ export default {
         padding: 10px 20px !important;
       }
     }
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 25px 25px 25px 25px !important;
     }
   }

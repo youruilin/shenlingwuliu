@@ -82,7 +82,7 @@ export default {
     height: 48px;
     line-height: 48px;
     border-radius: 4px;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 0;
       display: flex;
     }

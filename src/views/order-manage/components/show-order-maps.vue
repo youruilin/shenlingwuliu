@@ -9030,7 +9030,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 /*定义滚动条轨道 内阴影+圆角*/
-/deep/ .el-dialog__wrapper {
+::v-deep .el-dialog__wrapper {
   padding-bottom: 5px;
   margin-bottom: 5px;
   &::-webkit-scrollbar {
@@ -9069,37 +9069,37 @@ export default {
   // text-align: center;
 }
 
-/deep/ .el-dialog {
+::v-deep .el-dialog {
   width: 1200px;
 }
 
 // 修改驾车icon图标
-/deep/ .BMap_Marker {
+::v-deep .BMap_Marker {
   // background: url(../../../assets/warn.png) no-repeat;
   // z-index: 100;
 }
-/deep/.BMap_noprint {
+::v-deep.BMap_noprint {
   // background: url(../../../assets/warn.png) no-repeat;
 }
-// /deep/ .BMap_Marker {
+// ::v-deep .BMap_Marker {
 //   img {
 //     background: url(../../../assets/warn.png) no-repeat;
 //     z-index: 100;
 //   }
 // }
 
-/deep/ path {
+::v-deep path {
   stroke:rgba(40,193,64,1);
 }
 .maps-details-box{
-  /deep/ .el-dialog__header{
+  ::v-deep .el-dialog__header{
     .el-dialog__title{
       font-size: 18px;
       font-weight: 400;
       color: #20232a;
     }
   }
-  /deep/ .el-dialog__body{
+  ::v-deep .el-dialog__body{
     padding: 32px;
   }
 }

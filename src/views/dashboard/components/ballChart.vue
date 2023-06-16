@@ -95,12 +95,12 @@ export default {
 </script>
 <style lang="scss" scoped>
 #ballChart{
-  /deep/ div{
+  ::v-deep div{
     cursor: default !important;
   }
 }
 #ballChartIng{
-  /deep/ div{
+  ::v-deep div{
     cursor: default !important;
   }
 }

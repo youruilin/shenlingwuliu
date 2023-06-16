@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scoped rel="stylesheet/scss">
 .waybill-list {
   .el-dialog__wrapper {
-    /deep/ .el-dialog__body {
+    ::v-deep .el-dialog__body {
       padding-left: 0px;
     }
   }

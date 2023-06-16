@@ -420,7 +420,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .add-form-dialog {
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     padding: 40px 66px 0 50px !important;
   }
 }

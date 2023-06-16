@@ -115,12 +115,12 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .el-input__inner {
+::v-deep .el-input__inner {
   padding-left: 0px !important;
   padding-right: 0 !important;
   width: 160px!important;
 }
-/deep/ .form-item {
+::v-deep .form-item {
   width: 25% !important;
   &:nth-child(1) {
     .span-title {
@@ -184,7 +184,7 @@ export default {
   }
   .form-box {
     border: 0 !important;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 15px 26px;
       padding-left: 45px !important;
       padding-right: 0px!important;
@@ -214,11 +214,11 @@ export default {
             color: #20232a;
             font-size: 14px;
           }
-          /deep/ .el-input {
+          ::v-deep .el-input {
             flex: 1;
             margin-left: 10px;
           }
-          /deep/.el-input.is-disabled .el-input__inner {
+          ::v-deep.el-input.is-disabled .el-input__inner {
             background: #eff3f8;
             border: 1px solid #d8dde3;
             border-radius: 5px;

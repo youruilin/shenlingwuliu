@@ -75,7 +75,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 
-/deep/ .hidden {
+::v-deep .hidden {
   .el-card {
     display: none;
   }
@@ -93,7 +93,7 @@ export default {
 .active {
   color: #ff643d;
 }
-/deep/ .show-hidden-btn {
+::v-deep .show-hidden-btn {
   display: inline-block;
   float: right;
   color: #419eff;
@@ -110,7 +110,7 @@ export default {
     padding: 37px 35px;
     box-sizing: border-box;
     min-height: calc(100vh - 50px);
-    /deep/ .el-aside {
+    ::v-deep .el-aside {
       width: 80px !important;
       background-color: #ffffff;
       text-align: left;
@@ -124,7 +124,7 @@ export default {
       }
     }
   }
-  /deep/ .item {
+  ::v-deep .item {
     margin-bottom: 20px;
     .car-base {
       margin-top: 0px;

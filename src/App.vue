@@ -41,7 +41,7 @@ export default {
 <style lang="scss" scoped>
 #app {
   /* min-width: 1620px; */
-  /deep/ .el-scrollbar__wrap {
+  ::v-deep .el-scrollbar__wrap {
     overflow-x: hidden;
   }
 }

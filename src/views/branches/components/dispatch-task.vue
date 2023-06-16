@@ -730,7 +730,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/deep/ .el-card__body {
+::v-deep .el-card__body {
   padding-bottom: 0px;
 }
 .pagination {
@@ -738,19 +738,19 @@ export default {
   padding-bottom: 0px;
 }
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 </style>
 
 <style lang="scss" scoped>
-/deep/ .el-card{
+::v-deep .el-card{
   overflow: initial;
 }
-/deep/ .vue-treeselect__menu-container{
+::v-deep .vue-treeselect__menu-container{
   z-index: 9999!important;
 }
-/deep/ .el-table tr td:last-child .cell{
+::v-deep .el-table tr td:last-child .cell{
   text-align: inherit;
 }
 </style>

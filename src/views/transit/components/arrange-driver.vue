@@ -242,7 +242,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .small-padding{
+::v-deep .small-padding{
   .cell{
     text-align:left!important
   }
@@ -316,7 +316,7 @@ export default {
 .selected-driver {
   margin-top: 18px;
 }
-/deep/ .el-table {
+::v-deep .el-table {
   overflow: initial;
   .el-table__body-wrapper {
     overflow: initial;

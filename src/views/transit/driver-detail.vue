@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss" scoped>
 .driver-detail {
-    /deep/ .el-container{
+    ::v-deep .el-container{
     flex-direction: column;
     margin-left: 0px;
 
@@ -30,7 +30,7 @@ export default {
     border-radius: 4px;
     padding: 24px 37px 24px 37px;
     box-sizing: border-box;
-    /deep/ .el-aside {
+    ::v-deep .el-aside {
       padding-bottom: 14px;
       width: 100%!important;
       display: flex;

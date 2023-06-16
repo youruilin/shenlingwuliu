@@ -275,7 +275,7 @@ export default {
     flex-wrap: wrap;
   }
 }
-/deep/ .el-dialog__body {
+::v-deep .el-dialog__body {
   padding: 40px 40px 0 10px !important;
 }
 </style>

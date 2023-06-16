@@ -25,7 +25,7 @@ export default {
   width: 100%;
 }
 
-.car-models /deep/ .el-table td,
+.car-models ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;
@@ -38,7 +38,7 @@ export default {
   overflow: hidden;
 }
 .car-models {
-  /deep/ .el-dialog__title {
+  ::v-deep .el-dialog__title {
     width: 73px;
     height: 25px;
     font-size: 18px;
@@ -49,7 +49,7 @@ export default {
     line-height: 25px;
     letter-spacing: 0px;
   }
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     text-align: center;
     padding: 40px 60px 0 30px;
   }

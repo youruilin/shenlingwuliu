@@ -883,7 +883,7 @@ export default {
 .pagination {
   margin-top: 40px;
 }
-.transport-task /deep/ .el-table td,
+.transport-task ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;
@@ -896,17 +896,17 @@ export default {
   overflow: hidden;
 }
 
-/deep/ .el-dialog__body{
+::v-deep .el-dialog__body{
   padding-left: 40px!important;
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 
 /*定义滚动条轨道 内阴影+圆角*/
-/deep/ .el-table--scrollable-x .el-table__body-wrapper {
+::v-deep .el-table--scrollable-x .el-table__body-wrapper {
   padding-bottom: 5px;
   margin-bottom: 5px;
   &::-webkit-scrollbar {
@@ -924,7 +924,7 @@ export default {
     margin-left: 3px;
   }
 }
-/deep/ .el-card{
+::v-deep .el-card{
   overflow: initial;
 }
 </style>

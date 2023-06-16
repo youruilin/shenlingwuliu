@@ -998,7 +998,7 @@ export default {
 }
 </script>
 <style rel="stylesheet/scss" lang="scss" scoped>
-/deep/ .empty-box {
+::v-deep .empty-box {
   min-height: auto !important;
   img {
     width: 102px;
@@ -1012,11 +1012,11 @@ export default {
   margin-top: 10px;
 }
 
-/deep/ .el-table__expanded-cell[class*='cell'] {
+::v-deep .el-table__expanded-cell[class*='cell'] {
   padding: 0;
 }
 
-/deep/ .el-table .cell.el-tooltip {
+::v-deep .el-table .cell.el-tooltip {
   white-space: nowrap;
   min-width: 50px;
   overflow: hidden;
@@ -1043,7 +1043,7 @@ export default {
   }
 }
 
-.line-manage /deep/ .el-table td,
+.line-manage ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   white-space: nowrap;
@@ -1052,16 +1052,16 @@ export default {
 }
 
 .line-manage {
-  /deep/ .children-table-box {
+  ::v-deep .children-table-box {
     background-color: white;
     box-shadow: none;
   }
-  /deep/ .none {
+  ::v-deep .none {
     .el-table__body-wrapper {
       display: none;
     }
   }
-  /deep/ .el-dialog__title {
+  ::v-deep .el-dialog__title {
     width: 73px;
     height: 25px;
     font-size: 18px;
@@ -1072,7 +1072,7 @@ export default {
     line-height: 25px;
     letter-spacing: 0px;
   }
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     text-align: center;
     padding: 20px 20px 0px 20px;
   }
@@ -1090,7 +1090,7 @@ export default {
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 .children-table-box {
@@ -1101,7 +1101,7 @@ export default {
   border-radius: 4px;
   box-shadow: 0px 2px 8px 0px rgba(202, 217, 229, 0.42);
   box-sizing: border-box;
-  /deep/ .el-table {
+  ::v-deep .el-table {
     border: 0;
     .el-table__body-wrapper {
       background: #ffffff;

@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .vehicle-detail {
-  /deep/ .el-container{
+  ::v-deep .el-container{
     flex-direction: column;
     margin-left: 0px;
 
@@ -36,7 +36,7 @@ export default {
     box-sizing: border-box;
 
     // min-height: calc(100vh - 50px);
-    /deep/ .el-aside {
+    ::v-deep .el-aside {
       padding-bottom: 14px;
       width: 100%!important;
       display: flex;

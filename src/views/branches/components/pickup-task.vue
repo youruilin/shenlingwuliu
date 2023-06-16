@@ -721,16 +721,16 @@ export default {
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 </style>
 
 <style lang="scss" scoped>
-/deep/ .el-card{
+::v-deep .el-card{
   overflow: initial;
 }
-/deep/ .vue-treeselect__menu-container{
+::v-deep .vue-treeselect__menu-container{
   z-index: 9999!important;
 }
 </style>

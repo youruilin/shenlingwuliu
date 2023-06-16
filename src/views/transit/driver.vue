@@ -17,11 +17,11 @@ export default {
   margin-top: 40px;
 }
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 
-/deep/ .el-card{
+::v-deep .el-card{
   overflow: initial;
 }
 </style>

@@ -593,10 +593,10 @@ export default {
   margin-top: 40px;
 }
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
-.waybill-list /deep/ .el-table td,
+.waybill-list ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;

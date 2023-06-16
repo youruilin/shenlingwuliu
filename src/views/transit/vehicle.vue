@@ -17,7 +17,7 @@ export default {
 .pagination {
   margin-top: 10px;
 }
-.vehicle /deep/ .el-table td,
+.vehicle ::v-deep .el-table td,
 .el-table th {
   padding: 12px 0;
   min-width: 0;
@@ -31,7 +31,7 @@ export default {
 }
 
 .vehicle {
-  /deep/ .el-dialog__title {
+  ::v-deep .el-dialog__title {
     width: 73px;
     height: 25px;
     font-size: 18px;
@@ -42,7 +42,7 @@ export default {
     line-height: 25px;
     letter-spacing: 0px;
   }
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     text-align: center;
     padding: 20px 20px 0px 20px;
   }
@@ -60,7 +60,7 @@ export default {
 }
 
 // 下拉框
-/deep/ .el-select {
+::v-deep .el-select {
   width: 100%;
 }
 </style>

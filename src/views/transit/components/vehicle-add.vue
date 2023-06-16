@@ -10,7 +10,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-/deep/ .el-dialog__body {
+::v-deep .el-dialog__body {
   padding: 40px 50px 0 20px !important;
 }
 </style>

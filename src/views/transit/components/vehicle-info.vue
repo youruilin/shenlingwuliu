@@ -506,13 +506,13 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/deep/ .el-card {
+::v-deep .el-card {
   height: 100%;
 }
-/deep/ .el-upload {
+::v-deep .el-upload {
   border: 1px dashed #d9d9d9;
 }
-/deep/ .avatar-uploader-icon {
+::v-deep .avatar-uploader-icon {
   font-size: 28px;
   color: #8c939d;
   width: 178px;
@@ -554,7 +554,7 @@ export default {
 .el-aside {
   color: #333;
 }
-/deep/ .el-row {
+::v-deep .el-row {
   margin-bottom: 20px;
 }
 .customer-details-box {
@@ -589,7 +589,7 @@ export default {
       font-weight: normal;
       white-space: nowrap;
     }
-    /deep/ .img-box {
+    ::v-deep .img-box {
       display: inline-block;
       position: relative;
       .img-shadow {
@@ -609,7 +609,7 @@ export default {
         }
       }
     }
-    /deep/ .el-card {
+    ::v-deep .el-card {
       .el-card__body {
         padding-left: 5px;
       }
@@ -623,7 +623,7 @@ export default {
   }
   .form-box {
     border: 0 !important;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 15px 26px;
       padding-bottom: 30px;
       .form-item-box {
@@ -652,11 +652,11 @@ export default {
             color: #20232a;
             font-size: 14px;
           }
-          /deep/ .el-input {
+          ::v-deep .el-input {
             flex: 1;
             margin-left: 10px;
           }
-          /deep/.el-input.is-disabled .el-input__inner {
+          ::v-deep.el-input.is-disabled .el-input__inner {
             background: #eff3f8;
             border: 1px solid #d8dde3;
             border-radius: 5px;
@@ -710,13 +710,13 @@ export default {
     border-radius: 4px;
   }
 }
-/deep/ .el-dialog__header {
+::v-deep .el-dialog__header {
   background-color: white;
   position: relative;
   z-index: 2;
   padding: 0px;
 }
-/deep/ .el-dialog__body {
+::v-deep .el-dialog__body {
   position: absolute;
   height: 600px;
   width: 100%;
@@ -728,32 +728,32 @@ export default {
     height: 600px;
   }
 }
-/deep/ .el-dialog {
+::v-deep .el-dialog {
   height: 600px;
 }
-/deep/ .el-form-item__content{
+::v-deep .el-form-item__content{
   white-space: nowrap;
   flex-wrap: nowrap;
 
 }
-/deep/ .el-form-item{
+::v-deep .el-form-item{
   margin-bottom: 0px;
   width: 100%;
 }
-/deep/ .el-form-item__label{
+::v-deep .el-form-item__label{
   font-size: 14px;
   color:#20232a ;
   font-weight: normal;
 }
-/deep/ .el-form-item__error{
+::v-deep .el-form-item__error{
   left: 90px;
 }
-/deep/ .el-date-editor{
+::v-deep .el-date-editor{
   width:auto!important;
 }
 //只读状态下不展示表单提示语
 .read{
-  /deep/ .el-form-item__error {
+  ::v-deep .el-form-item__error {
     display: none;
   }
 }

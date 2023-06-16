@@ -102,7 +102,7 @@ export default {
   color: #333;
 }
 
-/deep/ .el-row {
+::v-deep .el-row {
   margin-bottom: 20px;
 }
 
@@ -132,7 +132,7 @@ export default {
   }
   .form-box {
     border: 0 !important;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 15px 26px;
       .form-item-box {
         display: flex;
@@ -161,11 +161,11 @@ export default {
             color: #20232a;
             font-size: 14px;
           }
-          /deep/ .el-input {
+          ::v-deep .el-input {
             flex: 1;
             margin-left: 10px;
           }
-          /deep/.el-input.is-disabled .el-input__inner {
+          ::v-deep.el-input.is-disabled .el-input__inner {
             background: #eff3f8;
             border: 1px solid #d8dde3;
             border-radius: 5px;

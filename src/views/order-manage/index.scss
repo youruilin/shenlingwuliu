@@ -99,11 +99,11 @@
 .app-container {
   .order-box {
     box-shadow: none;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 25px 44px;
     }
   }
-  /deep/ .el-collapse-item {
+  ::v-deep .el-collapse-item {
     .el-collapse-item__content {
       padding: 24px 44px;
       .el-timeline {
@@ -128,18 +128,18 @@
   .customer-table-box {
     margin-top: 20px;
     border: none !important;
-    /deep/ .el-collapse-item {
+    ::v-deep .el-collapse-item {
       .el-collapse-item__content {
         padding: 24px 28px;
       }
     }
   }
 }
-/deep/ .el-collapse-item__wrap {
+::v-deep .el-collapse-item__wrap {
   border-radius: 0px 0px 4px 4px;
   border-bottom: none;
 }
-/deep/ .el-table__footer-wrapper tbody td {
+::v-deep .el-table__footer-wrapper tbody td {
   background-color: #fafafa !important ;
 }
 .ddbh {
@@ -315,7 +315,7 @@
   }
 }
 
-.edit-order /deep/ .el-collapse-item__header {
+.edit-order ::v-deep .el-collapse-item__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,23 +379,23 @@
 .app-container {
   .order-box {
     box-shadow: none;
-    /deep/ .el-card__body {
+    ::v-deep .el-card__body {
       padding: 25px 44px;
       padding-right: 0px;
     }
   }
-  /deep/ .el-collapse.maps {
+  ::v-deep .el-collapse.maps {
     .el-collapse-item__content {
       padding: 30px !important;
     }
   }
-  /deep/ .order-collapse {
+  ::v-deep .order-collapse {
     margin-top: 20px;
     .el-collapse-item__content {
       padding-bottom: 0px !important;
     }
   }
-  /deep/ .el-collapse-item {
+  ::v-deep .el-collapse-item {
     .el-collapse-item__content {
       padding: 24px 44px;
       .el-timeline {
@@ -421,13 +421,13 @@
     }
   }
   .customer-table-box {
-    /deep/ .el-collapse-item {
+    ::v-deep .el-collapse-item {
       .el-collapse-item__content {
         padding: 24px 28px;
       }
     }
   }
-  /deep/ .el-collapse-item__header {
+  ::v-deep .el-collapse-item__header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -636,7 +636,7 @@
 .aa >>> .el-collapse-item >>> .el-collapse-item__header {
   background-color: aqua !important;
 }
-/deep/ .el-steps--horizontal {
+::v-deep .el-steps--horizontal {
   margin-bottom: 20px;
 }
 .processing_content {
@@ -675,14 +675,14 @@
   display: inline-block;
 }
 
-/deep/ .collapse-detail {
+::v-deep .collapse-detail {
   font-size: 16px;
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: 700;
   color: #2a2929;
 }
 
-/deep/ .el-collapse-item__header.is-active {
+::v-deep .el-collapse-item__header.is-active {
   border-bottom-color: transparent;
   background-color: #f8faff;
 }
@@ -740,12 +740,12 @@
   }
 }
 
-/deep/ path {
+::v-deep path {
   stroke: rgba(40, 193, 64, 1);
 }
 
 //订单跟踪（运输流）
-/deep/ .logistics-orderInfo {
+::v-deep .logistics-orderInfo {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
@@ -835,22 +835,22 @@
     }
   }
 }
-/deep/ .empty-box {
+::v-deep .empty-box {
   .icon {
     width: 14%;
     height: 14%;
   }
 }
-/deep/ .el-scrollbar {
+::v-deep .el-scrollbar {
   .el-scrollbar__wrap {
     overflow-x: scroll !important;
   }
 }
-/deep/ .el-collapse-item__wrap {
+::v-deep .el-collapse-item__wrap {
   border-bottom: none;
   border-radius: 0 0 4px 4px;
 }
-/deep/ .el-collapse {
+::v-deep .el-collapse {
   border: none;
   margin-top: 20px;
   border-radius: 4px;

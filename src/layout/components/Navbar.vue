@@ -298,7 +298,7 @@ export default {
       .new-dropdown-menu {
         margin-right: 30px;
         padding: 0 20px;
-        /deep/ .el-dropdown-menu__item {
+        ::v-deep .el-dropdown-menu__item {
           width: 100%;
         }
       }
@@ -313,24 +313,24 @@ export default {
         }
       }
 
-      /deep/ .el-dropdown-menu__item {
+      ::v-deep .el-dropdown-menu__item {
         border: 1px solid red;
       }
-      /deep/ .el-dropdown-menu__item:not(.is-disabled):hover,
-      /deep/ .el-dropdown-menu__item:focus {
+      ::v-deep .el-dropdown-menu__item:not(.is-disabled):hover,
+      ::v-deep .el-dropdown-menu__item:focus {
         width: 100%;
       }
 
-      /deep/ .custom-theme .el-dropdown-menu__item--divided {
+      ::v-deep .custom-theme .el-dropdown-menu__item--divided {
         margin-top: 0px !important;
       }
-      /deep/ .el-dropdown-menu__item--divided {
+      ::v-deep .el-dropdown-menu__item--divided {
         margin-top: 0px !important;
       }
-      /deep/ .custom-theme .el-dropdown-menu__item--divided:before {
+      ::v-deep .custom-theme .el-dropdown-menu__item--divided:before {
         height: 0px !important;
       }
-      /deep/ .el-dropdown-menu__item--divided:before {
+      ::v-deep .el-dropdown-menu__item--divided:before {
         height: 0px !important;
       }
     }
@@ -377,7 +377,7 @@ export default {
 }
 
 .new-navbar {
-  /deep/ .el-dialog {
+  ::v-deep .el-dialog {
     transform: none;
     left: 0;
     position: relative;
@@ -385,13 +385,13 @@ export default {
     border-radius: 8px;
   }
   // 新加header样式优化
-  /deep/ .el-dialog__header {
+  ::v-deep .el-dialog__header {
     text-align: left;
     padding: 15px 30px;
     background-color: rgb(77, 105, 190);
     border-radius: 8px 8px 0 0;
   }
-  /deep/ .el-dialog__title {
+  ::v-deep .el-dialog__title {
     width: 73px;
     height: 25px;
     font-size: 18px;
@@ -402,7 +402,7 @@ export default {
     line-height: 25px;
     letter-spacing: 0px;
   }
-  /deep/ .el-dialog__body {
+  ::v-deep .el-dialog__body {
     padding: 20px 20px 0px 20px;
   }
   .warn-img {
@@ -416,21 +416,21 @@ export default {
     color: #818693;
     line-height: 24px;
   }
-  /deep/ .custom-theme .el-date-editor .el-range__icon {
+  ::v-deep .custom-theme .el-date-editor .el-range__icon {
     color: 'rgba(224,86,53,1)' !important;
   }
 }
 
-/deep/ .custom-theme .el-dropdown-menu__item--divided {
+::v-deep .custom-theme .el-dropdown-menu__item--divided {
   margin-top: 0px !important;
 }
-/deep/ .el-dropdown-menu__item--divided {
+::v-deep .el-dropdown-menu__item--divided {
   margin-top: 0px !important;
 }
-/deep/ .custom-theme .el-dropdown-menu__item--divided:before {
+::v-deep .custom-theme .el-dropdown-menu__item--divided:before {
   height: 0px !important;
 }
-/deep/ .el-dropdown-menu__item--divided:before {
+::v-deep .el-dropdown-menu__item--divided:before {
   height: 0px !important;
 }
 </style>

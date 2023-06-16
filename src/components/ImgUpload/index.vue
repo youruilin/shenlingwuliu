@@ -271,7 +271,7 @@ export default {
   align-items: center;
   // flex-direction: column;
 }
-.avatar-uploader /deep/ .el-upload {
+.avatar-uploader ::v-deep .el-upload {
   border: 1px dashed #d8dde3;
   border-radius: 6px;
   cursor: pointer;
@@ -297,7 +297,7 @@ export default {
   z-index: 2;
   border-radius: 6px;
 }
-/deep/ .disabled-shadow {
+::v-deep .disabled-shadow {
   display: flex;
   justify-content: center;
   // border: 2px solid #EFF3F8;
@@ -322,7 +322,7 @@ export default {
   }
 }
 
-/deep/ .avatar-uploader .el-upload:hover {
+::v-deep .avatar-uploader .el-upload:hover {
   // border-color: #ffc200;
   .el-icon-plus:after {
     position: absolute;
@@ -369,13 +369,13 @@ export default {
   display: block;
   cursor: auto;
 }
-/deep/ .el-dialog__header {
+::v-deep .el-dialog__header {
   background-color: white;
   position: relative;
   z-index: 2;
   padding: 0px;
 }
-/deep/ .el-dialog__body {
+::v-deep .el-dialog__body {
   position: absolute;
   height: 600px;
   width: 100%;
@@ -387,16 +387,16 @@ export default {
     height: 600px;
   }
 }
-/deep/ .el-dialog {
+::v-deep .el-dialog {
   height: 600px;
 }
-/deep/ .el-upload-list__item {
+::v-deep .el-upload-list__item {
   width: 212px;
   height: 159px;
   margin-right: 20px;
 }
 //上传列表
-/deep/ .read-example-box {
+::v-deep .read-example-box {
   img {
     border: 1px solid #d8dde3;
     width: 212px;
