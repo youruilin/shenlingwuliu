@@ -279,7 +279,7 @@
   font-weight: 400;
 }
 
-.aa >>> .el-collapse-item >>> .el-collapse-item__header {
+.aa ::v-deep .el-collapse-item ::v-deep .el-collapse-item__header {
   background-color: aqua !important;
 }
 
@@ -633,7 +633,7 @@
 .pszyzt label {
   color: #818693;
 }
-.aa >>> .el-collapse-item >>> .el-collapse-item__header {
+.aa ::v-deep .el-collapse-item ::v-deep .el-collapse-item__header {
   background-color: aqua !important;
 }
 ::v-deep .el-steps--horizontal {
