@@ -43,7 +43,7 @@ vue2+vuex+axios
 
 #### 外网展示
 > 部署说明：目前是 git 上传代码后在 gitlab 上自动部署
-- https://fe-slwl-manager.itheima.net/#/login
+-  https://youruilin.github.io/shenlingwuliu/
 
 #### 开发环境
 - windows 版本 windows 10 企业版
