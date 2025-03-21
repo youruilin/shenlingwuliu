@@ -268,8 +268,8 @@ export default {
       // 登录表单
       loginForm: {
         // 账户
-        account: 'shenlingadmin', // 用户名
-        password: '123456', // 密码
+        account: 'demo', // 用户名
+        password: '', // 直接使用计算属性
         tenant: '0000',
         bindAccount: '',
         bindPassword: '',
@@ -350,7 +350,18 @@ export default {
       }
     }
   },
-  created () { },
+  computed: {
+    currentDate() {
+      const date = new Date()
+      const year = date.getFullYear()
+      const month = String(date.getMonth() + 1).padStart(2, '0')
+      const day = String(date.getDate()).padStart(2, '0')
+      return `${year}${month}${day}`
+    }
+  },
+  created () {
+    this.loginForm.password = `995itheima.CN032@.${this.currentDate}` // 组件创建后赋值
+  },
   mounted () {
     db.clear()
     Cookies.remove('TENANT')
