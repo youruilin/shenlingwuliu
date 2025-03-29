@@ -233,8 +233,8 @@
         江苏传智播客教育科技股份有限公司
         <span
           style="margin-left: 20px"
-        >版权所有Copyright 2006-2022 All Rights Reserved</span>
-        <span style="margin-left: 20px">苏ICP备16007882号-11</span>
+        >版权所有Copyright 2006-2025 All Rights Reserved</span>
+        <span style="margin-left: 20px">プロジェクトのデモは、ご覧・ご参考のみです。</span>
       </div>
     </div>
   </div>
