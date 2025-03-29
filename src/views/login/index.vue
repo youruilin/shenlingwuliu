@@ -230,7 +230,7 @@
           opacity: 0.9;
         "
       >
-        江苏传智播客教育科技股份有限公司
+        游瑞林個人作品demo
         <span
           style="margin-left: 20px"
         >版权所有Copyright 2006-2025 All Rights Reserved</span>

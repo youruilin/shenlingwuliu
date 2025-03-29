@@ -7,9 +7,9 @@
       <router-view :key="key" />
     </transition>
     <div style="font-size:14px;color:#BAC0CD;text-align:center;padding-bottom:20px;background-color:#F3F4F7;position:absolute;bottom:0;left:0%;width:100%;padding-top:20px">
-      江苏传智播客教育科技股份有限公司
-      <span style="margin-left:20px">版权所有Copyright 2006-2022  All Rights Reserved</span>
-      <span style="margin-left:20px">苏ICP备16007882号-11</span>
+      游瑞林個人作品demo
+      <span style="margin-left:20px">版权所有Copyright 2006-2025  All Rights Reserved</span>
+      <span style="margin-left:20px">プロジェクトのデモは、ご覧・ご参考のみです。</span>
     </div>
   </section>
 </template>
