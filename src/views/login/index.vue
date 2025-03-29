@@ -269,7 +269,7 @@ export default {
       loginForm: {
         // 账户
         account: 'demo', // 用户名
-        password: '', // 直接使用计算属性
+        password: '', // 暂时留空，后面直接使用计算属性
         tenant: '0000',
         bindAccount: '',
         bindPassword: '',
