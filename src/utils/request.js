@@ -71,7 +71,7 @@ service.interceptors.response.use(response => {
     }
     return router.push('/login')
   } else {
-    return { code: '', msg: '很抱歉，演示系统，不允许修改' }
+    return { code: '', msg: '很抱歉，接口异常' }
   }
 })
 
